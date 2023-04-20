@@ -12,6 +12,6 @@ public class increasingTriplet {
             else if(i > min1 && i <= mins2) mins2 = i;
             else return true;
         }
-        return false;
+        return true;
     }
 }
