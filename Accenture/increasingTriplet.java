@@ -1,6 +1,6 @@
 public class increasingTriplet {
     public static void main(String[] args) {
-        int []arr = {1,2,3,4,5};
+        int []arr = {1,2,3,4,5,6};
         boolean ans = solve(arr);
         System.out.println(ans);
     }
