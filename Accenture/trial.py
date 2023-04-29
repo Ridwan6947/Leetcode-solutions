@@ -3,7 +3,7 @@ import json
 
 data = {
     "Name" : "Syed Ridwan Ahmad",
-    "Email" : "RidwanAhamed@gmail.com",
+    "Email" : "ridwanAhamed@gmail.com",
     "College" : "VIT,Bhopal",
     "StudentId" : "20BCE10961",
     "FileName" : "trial.py"
