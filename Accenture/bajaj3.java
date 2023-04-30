@@ -3,7 +3,7 @@ import java.util.*;
 public class bajaj3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = "Welcome to Coding Ninjas";
+        String str = "Welcome to Coding Ninja";
         String str1 = reverse1(str);
         String str2 = reverse2(str);
         System.out.println(str1);
