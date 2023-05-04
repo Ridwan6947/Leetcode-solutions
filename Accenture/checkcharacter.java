@@ -3,7 +3,7 @@ import java.util.*;
 public class checkcharacter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = "xyzabdcf";
+        String str = "xyzabdcfg";
         char [] arr = str.toCharArray();
         Arrays.sort(arr);
         // System.out.println(String.valueOf(arr));
