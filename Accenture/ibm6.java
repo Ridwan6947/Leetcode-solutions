@@ -3,7 +3,7 @@ import java.util.*;
 public class ibm6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = "abbba";
+        String str = "abbbas";
         boolean res = solve(str);
         boolean res1 = solve(str);
         System.out.println(res);
