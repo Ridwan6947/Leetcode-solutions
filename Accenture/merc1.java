@@ -1,5 +1,5 @@
 import java.util.*;
-// import java.util.ArrayList;
+import java.util.ArrayList;
 public class merc1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
