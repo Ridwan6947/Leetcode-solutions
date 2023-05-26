@@ -22,7 +22,7 @@ public class maxSum {
                 currMax += arr[j];
                 j +=k;
             }
-            // System.out.print(max + " " );
+            System.out.print(max + " " );
             max = Math.max(max,currMax);
         }
         return max;
