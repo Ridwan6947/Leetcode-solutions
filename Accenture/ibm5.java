@@ -3,7 +3,7 @@ import java.util.*;
 public class ibm5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = 1211;
+        int n = 121;
         // int rev = solve(n);
         boolean ans = check(n);
         System.out.println(ans);
