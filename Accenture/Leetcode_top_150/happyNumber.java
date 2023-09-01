@@ -1,5 +1,5 @@
 import java.util.*;
-
+// Code for happyNumber
 public class happyNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
