@@ -1,6 +1,6 @@
 public class dominoTiling {
     public static void main(String[] args) {
-        int n = 6;
+        int n = 9;
         int ans = numTilings(n);
         System.out.println(ans);
 
