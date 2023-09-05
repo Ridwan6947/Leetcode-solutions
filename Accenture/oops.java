@@ -1,6 +1,6 @@
 
 public class oops {
-    public static void main(String[] args) {
+    public static void main(String[] args) {                                            //this whole code is encapsulated in different classes
         Car car=new Car(4, "Red", true);
         System.out.println(car.color);
         Bike bike=new Bike(2, "Black", false);
@@ -14,14 +14,14 @@ abstract class Vehical{
         if(isWorking){
             System.out.println("Honk");
         }
-        else{
-            System.out.println("Horn is not working");
+        else{                                                                      //this case is showing abstraction 
+            System.out.println("Horn is not working");                           
         }
     }
     String color;
 }
 class Car extends Vehical{
-
+                                                                                    // this is showing inheritance
     Car(int wheels,String color,boolean isWorking){
         this.wheels=wheels;
         this.color=color;
@@ -33,7 +33,7 @@ class Bike extends Vehical{
         if(isWorking){
             System.out.println("beep");
         }
-        else{
+        else{                                                                      //this is showing polymorphism
             System.out.println("Horn is not working");
         }
     }
