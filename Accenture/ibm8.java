@@ -18,11 +18,10 @@ public class ibm8 {
     // }
     public static int solve(int n){
         String str = Integer.toString(n);
-        int sum = 0;
-        for(char c : str.toCharArray()){
-            sum += c - '0';
+        int ans = 0;
+        for(int i = 0; i < str.length() ; i++ ){
+            ans += str.charAt(i) - '0';
         }
-        return sum;
-
+        return ans;
     }
 }

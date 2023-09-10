@@ -4,19 +4,26 @@ public class ibm10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = "My name is Khan";
-        String rev = reverse(str);
-        System.out.println(rev);
+        reverse(str);
+        reverse1(str);
+        // System.out.println(rev);
     }
-    public static String reverse(String str){
+    public static void reverse(String str){
+        Stack<String> st = new Stack<>();
+        String[] arr = str.split("\\s+");
+        for(int i = 0 ; i < arr.length ; i++){
+            st.push(arr[i]);
+        }
         StringBuilder sb = new StringBuilder();
-        String[] arr = str.split(" ");
-        for(int i = arr.length-1 ; i >= 0 ; i--){
-            if(arr[i] != ""){
-                sb.append(arr[i]);
-                sb.append(" ");
-            }
+        while(!st.isEmpty()){
+            sb.append(st.pop());
+            sb.append(" ");
         }
         sb.deleteCharAt(sb.length()-1);
-        return sb.toString();
+        System.out.println(sb.toString());
+    }
+    public static void reverse1(String str){
+        StringBuilder sb = new StringBuilder();
+        
     }
 }

@@ -1,5 +1,5 @@
 import java.util.*;
-
+//HCF Finder
 public class ibm2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,3 +18,4 @@ public class ibm2 {
         return ans;
     }
 }
+

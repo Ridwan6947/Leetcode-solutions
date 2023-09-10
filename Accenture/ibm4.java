@@ -3,20 +3,17 @@ import java.util.*;
 public class ibm4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = 8;
+        int n = 2;
         solve(n);
     }
     public static void solve(int n){
-        int i = 0;
-        int [] arr = new int[1000];
+        ArrayList<Integer> list = new ArrayList<>();
         while(n > 0){
-            arr[i] = n % 2;
-            n = n /2;
-            i++;
-
+            list.add(n % 2);
+            n = n / 2;
         }
-        for(int j = i -1 ; j>=0 ; j--){
-            System.out.print(arr[j]);
+        for(int i = list.size()-1 ; i >=0 ; i--){
+            System.out.print(list.get(i));
         }
     }
 }

@@ -1,5 +1,5 @@
 import java.util.*;
-
+//LCM Code
 public class ibm9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class ibm9 {
     public static int solve(int n , int m){
         int min = Math.min(n,m);
         int max = Math.max(n,m);
-        for(int i = max ; ; i+=max){
+        for(int i = max ;; i+=max){
             if(i % min == 0){
                 return i;
             }
