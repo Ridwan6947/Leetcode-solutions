@@ -4,7 +4,7 @@ public class decTonBase {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
         int n = 21;
-        int num = 5678;
+        int num = 5698;
         String ans = "";
         int quotient = num / n;
         ArrayList <Integer> list = new ArrayList<>();
