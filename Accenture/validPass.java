@@ -23,6 +23,7 @@ public class validPass {
             if(c == ' ' || c == '/'){
                 return 0;
             }
+            
 
         }
         if (numCount > 0 && alphCount > 0)

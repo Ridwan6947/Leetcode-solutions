@@ -3,20 +3,20 @@ import java.util.*;
 public class armstrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = 1634;
+        int n = 152;
         String str = Integer.toString(n);
-        int len = str.length();
-        boolean res = solve(n,len);
-        System.out.println(res);
+        boolean ans = solve(n,str);
+        System.out.println(ans);
     }
-    public static boolean solve(int n , int len ){
-        int p = 0;
+    public static boolean solve(int n , String str){
+        int len = str.length();
         int temp = n;
-        while(n > 0){
-            int rem = n % 10;
-            p =  (int) ((p) + (Math.pow(rem , len)));
-            n = n/ 10;
+        int p = 0;
+        while(temp > 0){
+            int digit = temp % 10;
+            p = (int)(p + (Math.pow(digit, len)));
+            temp = temp / 10;
         }
-        return temp == p;
+        return n == p;
     }
 }
