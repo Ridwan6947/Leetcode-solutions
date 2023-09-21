@@ -17,7 +17,7 @@ public class bajaj3 {
             sb.append(arr[i]);
             sb.append(" ");
         }
-        sb.deleteCharAt(sb.length()-1);
+        // sb.deleteCharAt(sb.length()-1);
         return sb.toString();
     }
     // reverse the words and alphabets 
