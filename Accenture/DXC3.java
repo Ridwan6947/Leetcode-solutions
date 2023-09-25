@@ -10,11 +10,11 @@ public class DXC3 {
         System.out.println(ans);  
     }
     public static int solve(int distance , int s1 , int s2 , int s3){
-        int a = distance / s1;
-        int b = distance / s2;
-        int c = distance / s3;
-
-        int ans = (Math.min(Math.min(a,b),c));
+        int ans = 0;
+        int t1 = distance/s1;
+        int t2 = distance/s2;
+        int t3 = distance/s3;
+        ans = Math.min(Math.min(t1,t2),t3);
         return ans;
     }
 }
