@@ -4,7 +4,7 @@ public class ibm1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str1 = "abcd";
-        String str2 = "cdxy";
+        String str2 = "tdxy";
         HashSet<Character> set = new HashSet<>();
         for(char c : str1.toCharArray()){
             if(!set.contains(c)){
