@@ -1,3 +1,4 @@
+package Oops;
 
 public class oops {
     public static void main(String[] args) {                                            //this whole code is encapsulated in different classes
