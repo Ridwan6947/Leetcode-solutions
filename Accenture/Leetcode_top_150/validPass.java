@@ -4,7 +4,7 @@ import java.util.*;
 
 public class validPass {
     public static int ans(String str){
-        if(str.length() < 4){
+        if(str.length() < 5){
             return 0;
         }
         int numCount = 0;
