@@ -3,7 +3,7 @@ import java.util.*;
 public class ibm14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = 1021;
+        int n = 1011;
         System.out.println(check(n));
     }    
     public static boolean check(int n){
