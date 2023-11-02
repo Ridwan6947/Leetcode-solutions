@@ -3,8 +3,8 @@ import java.util.*;
 public class cisco {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String inputString = scanner.nextLine();
-        String pattern = scanner.nextLine();
+        String inputString = "hellofromtheotherside";
+        String pattern = "##o#";
         scanner.close();
         
         int uniqueNumber = findUniqueNumber(inputString, pattern);
