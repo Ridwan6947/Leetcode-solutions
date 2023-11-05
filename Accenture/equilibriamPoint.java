@@ -21,3 +21,6 @@ public class equilibriamPoint{
         // System.out.println(leftSum + " " + rightSum + " " + arr[left+1]);
     }
 }
+
+// left sum = 1    1+3   4+5   9+2    11+2
+//totalSum = 13-1  12-3  9-5ma
