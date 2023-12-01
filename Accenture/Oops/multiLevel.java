@@ -1,7 +1,7 @@
 package Oops;
 public class multiLevel {
     public static void main(String[] args) {
-        animal a1 = new dog();
+        animal a1 = new animal();
         dog d1 = new dog();
         puppy c1 = new puppy();
         

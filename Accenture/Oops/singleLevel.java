@@ -11,4 +11,12 @@ class employee{
 }
 class executive extends employee{
     int bonus = 3000*4; 
+    executive() {
+        super(); // This is implicit, but it's good to include it for clarity.
+        calculateTotalSalary();
+    }
+
+    void calculateTotalSalary() {
+        salary = salary + bonus;
+    }
 }
