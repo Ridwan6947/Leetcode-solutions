@@ -3,7 +3,7 @@ import java.util.*;
 public class armstrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = 152;
+        int n = 153;
         String str = Integer.toString(n);
         boolean ans = solve(n,str);
         System.out.println(ans);
